@@ -46,10 +46,6 @@ Ensure you have the following installed:
    ```bash
    cd flask-server
 
-2. Create the virtual Environment:
-  ```bash
-   python -m venv venv
-
 4. Install the dependencies:
   ```bash
    pip install -r requirements.txt
