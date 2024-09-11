@@ -31,6 +31,7 @@ Ensure you have the following installed:
 - **Node.js** (>= v14.x.x)
 - **npm** (Node Package Manager)
 - **Python** (>= 3.x) with **Flask** installed for the backend
+- **Flask-cors** 
 
 ### Application 1
 
