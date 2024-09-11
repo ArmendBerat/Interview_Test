@@ -35,40 +35,39 @@ Ensure you have the following installed:
 
 ### Application 1
 
-1. Navigate to the `Rock_Paper_Scissors` directory:
+1. Navigate to the `Interview_Test` directory:
    ```bash
    python basic-Version.py
 
 ### Application 2
 
-#### 
 1. Navigate to the `flask-server` directory:
    ```bash
-   'cd flask-server'
+   cd flask-server
 
 2. Create the virtual Environment:
   ```bash
-  'python -m venv venv'
+  python -m venv venv
 
 3. Activate the virtual Environment:
   ```bash
-  'python venv\Scripts\activate'
+  python venv\Scripts\activate 
 
 4. Install the dependencies:
   ```bash
-  'pip install -r requirements.txt'
+  pip install -r requirements.txt
 
 5. Start the flask server:
    ```bash
-   'python server.py'
+   python server.py
 
 6. Open a new terminal and navigate to the `client` directory:
    ```bash
-   'cd client'
+   cd client
 
 7. Install the dependencies:
    ```bash
-   'npm install'
+   npm install
 
 8. Start the React component:
    ```bash
@@ -80,7 +79,6 @@ Ensure you have the following installed:
 ## Tests
 
 ### Testing the backend 
-####
 1. Navigate to the `flask-server` directory:
    ```bash
    cd flask-server
@@ -90,7 +88,7 @@ Ensure you have the following installed:
    python server_test.py
 
 ### Testing the frontend 
-####
+
 1. Open a new terminal and navigate to the `client` directory:
    ```bash
    cd client
