@@ -46,9 +46,17 @@ Ensure you have the following installed:
    ```bash
    cd flask-server
 
+2. Create the virtual Environment:
+  ```bash
+  python -m venv venv
+
+3. Activate the virtual Environment:
+  ```bash
+  python venv\Scripts\activate 
+
 4. Install the dependencies:
   ```bash
-   pip install -r requirements.txt
+  pip install -r requirements.txt
 
 5. Start the flask server:
    ```bash
