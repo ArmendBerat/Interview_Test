@@ -19,7 +19,7 @@ A simple web-based Rock, Paper, Scissors game with an optional variation to incl
 
 - **Frontend**: React.js
 - **Styling**: CSS
-- **Backend**: A simple Flask API
+- **Backend**: Flask Python
 - **Testing**: Jest and React Testing Library
 
 ## Getting Started
@@ -54,11 +54,15 @@ Ensure you have the following installed:
    ```bash
    cd client
 
-4. Start the React component:
+4. Install the dependencies:
+   ```bash
+   npm install
+
+5. Start the React component:
    ```bash
    npm start
 
-5. If the website doesn't load automatically try:
+6. If the website doesn't load automatically try:
     http://localhost:3000/
 
 ## Tests
@@ -69,7 +73,11 @@ Ensure you have the following installed:
    ```bash
    cd flask-server
 
-2. Start the flask server tests:
+2. Install the dependencies:
+  ```bash
+   pip install -r requirements.txt
+
+3. Start the flask server tests:
    ```bash
    python server_test.py
 
