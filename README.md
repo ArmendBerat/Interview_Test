@@ -46,27 +46,32 @@ Ensure you have the following installed:
    ```bash
    cd flask-server
 
-2. Install the dependencies:
+2. Activate the virtual Environment:
+  ```bash
+   python -m venv venv
+   python venv\Scripts\activate 
+
+3. Install the dependencies:
   ```bash
    pip install -r requirements.txt
 
-3. Start the flask server:
+4. Start the flask server:
    ```bash
    python server.py
 
-4. Open a new terminal and navigate to the `client` directory:
+5. Open a new terminal and navigate to the `client` directory:
    ```bash
    cd client
 
-5. Install the dependencies:
+6. Install the dependencies:
    ```bash
    npm install
 
-6. Start the React component:
+7. Start the React component:
    ```bash
    npm start
 
-7. If the website doesn't load automatically try:
+8. If the website doesn't load automatically try:
     http://localhost:3000/
 
 ## Tests
