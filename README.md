@@ -46,23 +46,27 @@ Ensure you have the following installed:
    ```bash
    cd flask-server
 
-2. Start the flask server:
+2. Install the dependencies:
+  ```bash
+   pip install -r requirements.txt
+
+3. Start the flask server:
    ```bash
    python server.py
 
-3. Open a new terminal and navigate to the `client` directory:
+4. Open a new terminal and navigate to the `client` directory:
    ```bash
    cd client
 
-4. Install the dependencies:
+5. Install the dependencies:
    ```bash
    npm install
 
-5. Start the React component:
+6. Start the React component:
    ```bash
    npm start
 
-6. If the website doesn't load automatically try:
+7. If the website doesn't load automatically try:
     http://localhost:3000/
 
 ## Tests
@@ -73,11 +77,7 @@ Ensure you have the following installed:
    ```bash
    cd flask-server
 
-2. Install the dependencies:
-  ```bash
-   pip install -r requirements.txt
-
-3. Start the flask server tests:
+2. Start the flask server tests:
    ```bash
    python server_test.py
 
