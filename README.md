@@ -96,7 +96,3 @@ Ensure you have the following installed:
 2. Start the React component:
    ```bash
    npm test
-
-
-
-
